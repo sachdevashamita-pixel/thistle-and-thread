@@ -1,0 +1,1012 @@
+/* ==========================================================
+   THISTLE & THREAD
+   Luxury Home Textiles
+   GLOBAL STYLESHEET
+========================================================== */
+
+/* ==========================================================
+   GOOGLE FONTS
+========================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+/* ==========================================================
+   VARIABLES
+========================================================== */
+
+:root{
+
+    --cream:#F8F6F2;
+    --warm-white:#FFFCFB;
+    --beige:#ECE5DC;
+    --taupe:#D3C5B7;
+    --sage:#8F9B8B;
+    --charcoal:#2F2F2F;
+    --text:#555555;
+    --light-text:#777777;
+
+    --heading-font:'Cormorant Garamond', serif;
+    --body-font:'Inter', sans-serif;
+
+    --container:1200px;
+
+    --radius:18px;
+
+    --transition:.35s ease;
+
+    --shadow:
+    0 12px 35px rgba(0,0,0,.08);
+
+}
+
+/* ==========================================================
+   RESET
+========================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    background:var(--cream);
+
+    color:var(--text);
+
+    font-family:var(--body-font);
+
+    line-height:1.8;
+
+    overflow-x:hidden;
+
+}
+
+img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+/* ==========================================================
+   TYPOGRAPHY
+========================================================== */
+
+h1,
+h2,
+h3,
+h4{
+
+    font-family:var(--heading-font);
+
+    color:var(--charcoal);
+
+    font-weight:600;
+
+}
+
+h1{
+
+    font-size:4.8rem;
+
+}
+
+h2{
+
+    font-size:3.2rem;
+
+    margin-bottom:25px;
+
+}
+
+h3{
+
+    font-size:2rem;
+
+    margin-bottom:15px;
+
+}
+
+p{
+
+    margin-bottom:20px;
+
+    color:var(--text);
+
+}
+
+/* ==========================================================
+   LAYOUT
+========================================================== */
+
+.container{
+
+    width:90%;
+
+    max-width:var(--container);
+
+    margin:auto;
+
+}
+
+section{
+
+    padding:100px 0;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:70px;
+
+}
+
+.section-title p{
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+/* ==========================================================
+   NAVIGATION
+========================================================== */
+
+nav{
+
+    position:sticky;
+
+    top:0;
+
+    z-index:1000;
+
+    background:rgba(255,252,251,.95);
+
+    backdrop-filter:blur(10px);
+
+    border-bottom:1px solid #e8e3db;
+
+}
+
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:22px 0;
+
+}
+
+.logo{
+
+    font-family:var(--heading-font);
+
+    font-size:2rem;
+
+    letter-spacing:2px;
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+.nav-links a{
+
+    position:relative;
+
+    transition:var(--transition);
+
+}
+
+.nav-links a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-6px;
+
+    width:0;
+
+    height:1px;
+
+    background:var(--charcoal);
+
+    transition:var(--transition);
+
+}
+
+.nav-links a:hover::after{
+
+    width:100%;
+
+}
+
+.active{
+
+    color:var(--charcoal);
+
+    font-weight:600;
+
+}
+
+/* ==========================================================
+   HERO
+========================================================== */
+
+.hero{
+
+    height:80vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    position:relative;
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+.hero-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.35);
+
+}
+
+.hero-content{
+
+    position:relative;
+
+    color:white;
+
+    max-width:700px;
+
+    padding:20px;
+
+}
+
+.hero-content h1{
+
+    color:white;
+
+}
+
+.hero-content p{
+
+    color:white;
+
+    font-size:1.2rem;
+
+}
+
+/* ==========================================================
+   BUTTONS
+========================================================== */
+
+.btn{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:14px 34px;
+
+    border-radius:40px;
+
+    background:var(--charcoal);
+
+    color:white;
+
+    transition:var(--transition);
+
+    font-weight:500;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-3px);
+
+    background:#444;
+
+}
+
+/* Instagram */
+
+.instagram{
+
+    background:#2F2F2F;
+
+    margin-right:10px;
+
+}
+
+.instagram:hover{
+
+    background:#454545;
+
+}
+
+/* WhatsApp */
+
+.whatsapp{
+
+    background:var(--sage);
+
+}
+
+.whatsapp:hover{
+
+    background:#75836F;
+
+}
+
+/* ==========================================================
+   TWO COLUMN LAYOUT
+========================================================== */
+
+.two-column{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:70px;
+
+    align-items:center;
+
+}
+
+.two-column img{
+
+    border-radius:var(--radius);
+
+    box-shadow:var(--shadow);
+
+}
+
+/* ==========================================================
+   CARDS
+========================================================== */
+
+.card-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:35px;
+
+}
+
+.card{
+
+    background:white;
+
+    border-radius:var(--radius);
+
+    overflow:hidden;
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.card img{
+
+    height:340px;
+
+    object-fit:cover;
+
+}
+
+.card-content{
+
+    padding:30px;
+
+}
+
+.card-content h3{
+
+    margin-bottom:10px;
+
+}
+
+.card-content p{
+
+    color:var(--light-text);
+
+}/* ==========================================================
+   GALLERY
+========================================================== */
+
+.gallery{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:25px;
+
+}
+
+.gallery img{
+
+    border-radius:var(--radius);
+
+    height:320px;
+
+    object-fit:cover;
+
+    transition:var(--transition);
+
+    box-shadow:var(--shadow);
+
+}
+
+.gallery img:hover{
+
+    transform:scale(1.04);
+
+}
+
+/* ==========================================================
+   COLLECTIONS
+========================================================== */
+
+.collection-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:40px;
+
+}
+
+.collection-card{
+
+    background:white;
+
+    border-radius:var(--radius);
+
+    overflow:hidden;
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+}
+
+.collection-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.collection-card img{
+
+    height:380px;
+
+    object-fit:cover;
+
+}
+
+.collection-info{
+
+    padding:30px;
+
+}
+
+.collection-info h3{
+
+    margin-bottom:15px;
+
+}
+
+.collection-info p{
+
+    margin-bottom:25px;
+
+}
+
+/* ==========================================================
+   PRODUCT GRID
+========================================================== */
+
+.product-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:30px;
+
+}
+
+.product{
+
+    background:white;
+
+    border-radius:var(--radius);
+
+    overflow:hidden;
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+}
+
+.product:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.product img{
+
+    height:300px;
+
+    object-fit:cover;
+
+}
+
+.product-info{
+
+    padding:25px;
+
+}
+
+.product-info h4{
+
+    margin-bottom:10px;
+
+}
+
+.product-info p{
+
+    color:var(--light-text);
+
+    margin-bottom:18px;
+
+}
+
+/* ==========================================================
+   CONTACT FORM
+========================================================== */
+
+.contact-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:60px;
+
+}
+
+.contact-info p{
+
+    margin-bottom:15px;
+
+}
+
+.contact-info a{
+
+    color:var(--sage);
+
+    transition:var(--transition);
+
+}
+
+.contact-info a:hover{
+
+    color:var(--charcoal);
+
+}
+
+form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+input,
+textarea{
+
+    width:100%;
+
+    padding:16px;
+
+    border:1px solid #ddd;
+
+    border-radius:12px;
+
+    font-family:var(--body-font);
+
+    font-size:1rem;
+
+    background:white;
+
+}
+
+textarea{
+
+    min-height:180px;
+
+    resize:vertical;
+
+}
+
+input:focus,
+textarea:focus{
+
+    outline:none;
+
+    border-color:var(--sage);
+
+}
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+footer{
+
+    background:#2F2F2F;
+
+    color:white;
+
+    padding:70px 0 30px;
+
+    margin-top:80px;
+
+}
+
+.footer-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:50px;
+
+}
+
+footer h3{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+footer p{
+
+    color:#d8d8d8;
+
+}
+
+footer a{
+
+    color:#d8d8d8;
+
+    transition:var(--transition);
+
+}
+
+footer a:hover{
+
+    color:white;
+
+}
+
+.social-links{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-top:20px;
+
+}
+
+.social-links a{
+
+    width:45px;
+
+    height:45px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:50%;
+
+    background:#444;
+
+    color:white;
+
+    transition:var(--transition);
+
+}
+
+.social-links a:hover{
+
+    background:var(--sage);
+
+    transform:translateY(-3px);
+
+}
+
+.copyright{
+
+    text-align:center;
+
+    margin-top:50px;
+
+    border-top:1px solid rgba(255,255,255,.15);
+
+    padding-top:25px;
+
+    color:#bfbfbf;
+
+    font-size:.9rem;
+
+}
+
+/* ==========================================================
+   UTILITIES
+========================================================== */
+
+.text-center{
+
+    text-align:center;
+
+}
+
+.mb-20{
+
+    margin-bottom:20px;
+
+}
+
+.mb-40{
+
+    margin-bottom:40px;
+
+}
+
+.mt-40{
+
+    margin-top:40px;
+
+}
+
+.fade{
+
+    animation:fadeUp .9s ease;
+
+}
+
+/* ==========================================================
+   ANIMATIONS
+========================================================== */
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(35px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+
+@media(max-width:992px){
+
+    h1{
+
+        font-size:3.5rem;
+
+    }
+
+    h2{
+
+        font-size:2.5rem;
+
+    }
+
+    .two-column{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .contact-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    section{
+
+        padding:70px 0;
+
+    }
+
+    .navbar{
+
+        flex-direction:column;
+
+        gap:20px;
+
+    }
+
+    .nav-links{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+        gap:18px;
+
+    }
+
+    h1{
+
+        font-size:2.8rem;
+
+    }
+
+    h2{
+
+        font-size:2.2rem;
+
+    }
+
+    .hero{
+
+        height:65vh;
+
+    }
+
+    .hero-content{
+
+        padding:0 20px;
+
+    }
+
+    .btn{
+
+        display:block;
+
+        width:100%;
+
+        text-align:center;
+
+        margin-bottom:15px;
+
+    }
+
+    .instagram{
+
+        margin-right:0;
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    .container{
+
+        width:92%;
+
+    }
+
+    h1{
+
+        font-size:2.3rem;
+
+    }
+
+    h2{
+
+        font-size:1.9rem;
+
+    }
+
+    h3{
+
+        font-size:1.5rem;
+
+    }
+
+    .card img,
+    .collection-card img,
+    .product img,
+    .gallery img{
+
+        height:250px;
+
+    }
+
+}
