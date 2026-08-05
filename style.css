@@ -563,6 +563,56 @@ nav{
 }
 
 /* ==========================================================
+   CATEGORY TABS
+========================================================== */
+
+.category-tabs{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:16px;
+
+    margin-bottom:60px;
+
+}
+
+.category-tabs a{
+
+    padding:10px 26px;
+
+    border:1px solid var(--taupe);
+
+    border-radius:40px;
+
+    color:var(--charcoal);
+
+    font-size:.9rem;
+
+    transition:var(--transition);
+
+}
+
+.category-tabs a:hover{
+
+    background:var(--beige);
+
+}
+
+.category-tabs a.active{
+
+    background:var(--charcoal);
+
+    border-color:var(--charcoal);
+
+    color:white;
+
+}
+
+/* ==========================================================
    PRODUCT GRID
 ========================================================== */
 
@@ -845,6 +895,156 @@ nav{
 
 }
 
+.variant-thumb{
+
+    width:56px;
+
+    height:56px;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+    border:2px solid transparent;
+
+    cursor:pointer;
+
+    padding:0;
+
+    background:none;
+
+    transition:var(--transition);
+
+}
+
+.variant-thumb img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+.variant-thumb:hover{
+
+    transform:translateY(-3px);
+
+}
+
+.variant-thumb.active{
+
+    border-color:var(--charcoal);
+
+}
+
+.variant-pill{
+
+    padding:10px 22px;
+
+    border:1px solid var(--taupe);
+
+    border-radius:40px;
+
+    background:white;
+
+    color:var(--charcoal);
+
+    font-size:.9rem;
+
+    cursor:pointer;
+
+    transition:var(--transition);
+
+}
+
+.variant-pill:hover{
+
+    background:var(--beige);
+
+}
+
+.variant-pill.active{
+
+    background:var(--charcoal);
+
+    border-color:var(--charcoal);
+
+    color:white;
+
+}
+
+.personalize-field{
+
+    margin:25px 0;
+
+}
+
+.personalize-field label{
+
+    display:block;
+
+    margin-bottom:10px;
+
+    color:var(--text);
+
+}
+
+.personalize-field input{
+
+    width:100%;
+
+    padding:14px 16px;
+
+    border:1px solid #ddd;
+
+    border-radius:12px;
+
+    font-family:var(--body-font);
+
+    font-size:1rem;
+
+    background:white;
+
+}
+
+.personalize-field input:focus{
+
+    outline:none;
+
+    border-color:var(--sage);
+
+}
+
+.contact-note{
+
+    margin-top:30px;
+
+    padding-top:25px;
+
+    border-top:1px solid #e8e3db;
+
+    font-weight:600;
+
+    color:var(--charcoal);
+
+}
+
+.contact-note a{
+
+    color:var(--sage);
+
+    text-decoration:underline;
+
+}
+
+.contact-note a:hover{
+
+    color:var(--charcoal);
+
+}
+
 .detail-actions{
 
     display:flex;
@@ -990,6 +1190,126 @@ nav{
 }
 
 /* ==========================================================
+   CART
+========================================================== */
+
+.cart-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:25px;
+
+    background:white;
+
+    border-radius:var(--radius);
+
+    box-shadow:var(--shadow);
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+}
+
+.cart-item img{
+
+    width:100px;
+
+    height:100px;
+
+    object-fit:cover;
+
+    border-radius:12px;
+
+    flex-shrink:0;
+
+}
+
+.cart-item-info{
+
+    flex:1;
+
+}
+
+.cart-item-info h3{
+
+    margin-bottom:6px;
+
+}
+
+.cart-item-info p{
+
+    margin-bottom:4px;
+
+    color:var(--light-text);
+
+    font-size:.9rem;
+
+}
+
+.cart-item-qty{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.cart-item-qty button{
+
+    width:32px;
+
+    height:32px;
+
+    border:1px solid var(--taupe);
+
+    border-radius:50%;
+
+    background:white;
+
+    cursor:pointer;
+
+    font-size:1rem;
+
+    transition:var(--transition);
+
+}
+
+.cart-item-qty button:hover{
+
+    background:var(--beige);
+
+}
+
+.cart-item-remove{
+
+    background:none;
+
+    border:none;
+
+    color:var(--light-text);
+
+    text-decoration:underline;
+
+    cursor:pointer;
+
+    font-size:.9rem;
+
+    margin-top:10px;
+
+}
+
+.cart-item-remove:hover{
+
+    color:var(--charcoal);
+
+}
+
+/* ==========================================================
    CONTACT FORM
 ========================================================== */
 
@@ -1127,29 +1447,33 @@ footer a:hover{
 
     display:flex;
 
-    gap:15px;
+    gap:12px;
 
     margin-top:20px;
+
+    flex-wrap:wrap;
 
 }
 
 .social-links a{
 
-    width:45px;
-
-    height:45px;
-
-    display:flex;
+    display:inline-flex;
 
     justify-content:center;
 
     align-items:center;
 
-    border-radius:50%;
+    padding:10px 22px;
+
+    border-radius:40px;
 
     background:#444;
 
     color:white;
+
+    font-size:.85rem;
+
+    white-space:nowrap;
 
     transition:var(--transition);
 
