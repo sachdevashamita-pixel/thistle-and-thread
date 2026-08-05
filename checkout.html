@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Checkout | Thistle & Thread</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+<!-- ================= NAVIGATION ================= -->
+
+<nav>
+
+    <div class="container navbar">
+
+        <div class="logo">
+            Thistle & Thread
+        </div>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="about.html">
+                    About
+                </a>
+            </li>
+
+            <li>
+                <a href="collections.html">
+                    Collections
+                </a>
+            </li>
+
+            <li>
+                <a href="manufacturing.html">
+                    Craftsmanship
+                </a>
+            </li>
+
+            <li>
+                <a href="gallery.html">
+                    Gallery
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html">
+                    Contact
+                </a>
+            </li>
+
+            <li>
+                <a href="cart.html">
+                    🛒 Cart (<span id="cart-count">0</span>)
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</nav>
+
+
+<!-- ================= CHECKOUT ================= -->
+
+<section>
+
+    <div class="container">
+
+        <div class="section-title fade">
+
+            <h1>Checkout</h1>
+
+            <p>
+
+                Enter your details, review your order, then pay
+                via UPI. We'll confirm your payment and get your
+                order ready.
+
+            </p>
+
+        </div>
+
+        <div id="checkout-empty" class="text-center" style="display:none;">
+
+            <p>Your cart is empty.</p>
+
+            <a href="collections.html" class="btn">
+                Browse Collections
+            </a>
+
+        </div>
+
+        <div id="checkout-form-section" class="contact-grid">
+
+            <div class="contact-info">
+
+                <h2>Order Summary</h2>
+
+                <div id="checkout-summary"></div>
+
+                <p class="contact-note">
+
+                    Prices will be confirmed with you directly before
+                    payment, since some items are made to order.
+
+                </p>
+
+            </div>
+
+            <form id="checkout-form">
+
+                <input type="text" id="checkout-name" placeholder="Full Name" required>
+
+                <input type="tel" id="checkout-phone" placeholder="Phone Number" required>
+
+                <input type="email" id="checkout-email" placeholder="Email Address" required>
+
+                <textarea id="checkout-address" placeholder="Delivery Address" required></textarea>
+
+                <p class="product-option">
+                    We currently ship within India only.
+                </p>
+
+                <button type="submit" class="btn">
+                    Place Order &amp; Pay via UPI
+                </button>
+
+            </form>
+
+        </div>
+
+        <div id="checkout-confirmation" class="text-center" style="display:none;">
+
+            <h2>Order Placed!</h2>
+
+            <p>
+
+                Your order number is <strong id="checkout-order-id"></strong>.
+                Complete your payment via UPI, then confirm on WhatsApp
+                so we can start on your order.
+
+            </p>
+
+            <div class="detail-actions" style="justify-content:center;">
+
+                <a href="" id="checkout-upi-link" class="btn">
+                    Pay via UPI
+                </a>
+
+                <a href="" id="checkout-whatsapp-link" class="btn whatsapp" target="_blank">
+                    Confirm on WhatsApp
+                </a>
+
+            </div>
+
+            <p class="contact-note">
+
+                On a computer without a UPI app? Note your order number
+                above and pay us directly using our UPI ID, then send
+                the payment screenshot on WhatsApp.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container footer-grid">
+
+
+        <div>
+
+            <h3>
+                Thistle & Thread
+            </h3>
+
+            <p>
+                Wrap Life in Comfort.
+            </p>
+
+            <div class="social-links">
+
+                <a href="https://www.instagram.com/thistle_nd_thread?igsh=ODRyOG8xc2U2cXo2"
+                   target="_blank">
+
+                    Instagram
+
+                </a>
+
+                <a href="https://wa.me/919811987106"
+                   target="_blank">
+
+                    WhatsApp
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Quick Links
+            </h3>
+
+            <p>
+                <a href="index.html">
+                    Home
+                </a>
+            </p>
+
+            <p>
+                <a href="about.html">
+                    About
+                </a>
+            </p>
+
+            <p>
+                <a href="collections.html">
+                    Collections
+                </a>
+            </p>
+
+            <p>
+                <a href="manufacturing.html">
+                    Craftsmanship
+                </a>
+            </p>
+
+            <p>
+                <a href="gallery.html">
+                    Gallery
+                </a>
+            </p>
+
+            <p>
+                <a href="contact.html">
+                    Contact
+                </a>
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Contact
+            </h3>
+
+            <p>
+                📍 Gurugram , India
+            </p>
+
+            <p>
+                📞 +91 9811987106 , +61 484225688
+            </p>
+
+            <p>
+
+                📧
+
+                <a href="mailto:shivanisachdeva.171980@gmail.com,sachdeavshamital@gmail.com">
+
+                    Email Us
+
+                </a>
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © 2026 Thistle & Thread.
+        All Rights Reserved.
+
+    </div>
+
+</footer>
+
+
+<script src="js/cart.js"></script>
+<script src="js/checkout.js"></script>
+
+</body>
+
+</html>
