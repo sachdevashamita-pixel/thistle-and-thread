@@ -650,41 +650,13 @@ const PRODUCTS = {
         ]
     },
 
-    "toy-horse": {
-        category: "Shaped Toys",
-        categoryLink: "shaped-toys.html",
-        name: "Horse Shaped Toy",
-        price: "\u20b9800",
-        priceNote: "",
-        description: "A charming horse-shaped knitted toy in a soft striped knit.",
-        size: "",
-        personalizable: false,
-        colors: [
-            { name: "Striped", image: "toy-horse.jpg" }
-        ]
-    },
-
-    "toy-dinosaur": {
-        category: "Shaped Toys",
-        categoryLink: "shaped-toys.html",
-        name: "Dinosaur Shaped Toy",
-        price: "\u20b91,200",
-        priceNote: "",
-        description: "A playful dinosaur-shaped knitted toy in navy and cream stripes.",
-        size: "",
-        personalizable: false,
-        colors: [
-            { name: "Navy Stripe", image: "toy-dinosaur.jpg" }
-        ]
-    },
-
     "toy-cloud": {
-        category: "Shaped Toys",
-        categoryLink: "shaped-toys.html",
-        name: "Cloud Shaped Toy",
-        price: "\u20b91,200",
+        category: "Designer Cushions",
+        categoryLink: "cushions.html",
+        name: "Cloud Shaped Cushion",
+        price: "\u20b9900",
         priceNote: "",
-        description: "A smiling cloud-shaped knitted toy in soft cream.",
+        description: "A smiling cloud-shaped knitted cushion in soft cream.",
         size: "",
         personalizable: false,
         colors: [
@@ -693,12 +665,12 @@ const PRODUCTS = {
     },
 
     "toy-cat-face": {
-        category: "Shaped Toys",
-        categoryLink: "shaped-toys.html",
-        name: "Cat Face Shaped Toy",
-        price: "\u20b91,200",
+        category: "Designer Cushions",
+        categoryLink: "cushions.html",
+        name: "Cat Face Shaped Cushion",
+        price: "\u20b9900",
         priceNote: "",
-        description: "A round, friendly cat-face knitted toy in soft grey.",
+        description: "A round, friendly cat-face knitted cushion in soft grey.",
         size: "",
         personalizable: false,
         colors: [
@@ -707,12 +679,12 @@ const PRODUCTS = {
     },
 
     "toy-ball": {
-        category: "Shaped Toys",
-        categoryLink: "shaped-toys.html",
-        name: "Ball Toy",
+        category: "Designer Cushions",
+        categoryLink: "cushions.html",
+        name: "Ball Shaped Cushion",
         price: "\u20b9800",
         priceNote: "",
-        description: "A playful round knitted toy, available in a bold polka dot or soft checkerboard pattern.",
+        description: "A playful round knitted cushion, available in a bold polka dot or soft checkerboard pattern.",
         size: "",
         personalizable: false,
         colors: [
@@ -722,12 +694,12 @@ const PRODUCTS = {
     },
 
     "toy-heart": {
-        category: "Shaped Toys",
-        categoryLink: "shaped-toys.html",
-        name: "Heart Shaped Toy",
-        price: "\u20b91,200",
+        category: "Designer Cushions",
+        categoryLink: "cushions.html",
+        name: "Heart Shaped Cushion",
+        price: "\u20b9900",
         priceNote: "",
-        description: "A soft heart-shaped knitted toy in a gentle cream tone.",
+        description: "A soft heart-shaped knitted cushion in a gentle cream tone.",
         size: "",
         personalizable: false,
         colors: [
@@ -736,12 +708,12 @@ const PRODUCTS = {
     },
 
     "toy-star": {
-        category: "Shaped Toys",
-        categoryLink: "shaped-toys.html",
-        name: "Star Shaped Toy",
-        price: "\u20b91,200",
+        category: "Designer Cushions",
+        categoryLink: "cushions.html",
+        name: "Star Shaped Cushion",
+        price: "\u20b9900",
         priceNote: "",
-        description: "A star-shaped knitted toy finished with a soft chevron texture.",
+        description: "A star-shaped knitted cushion finished with a soft chevron texture.",
         size: "",
         personalizable: false,
         colors: [
@@ -750,12 +722,12 @@ const PRODUCTS = {
     },
 
     "toy-fish": {
-        category: "Shaped Toys",
-        categoryLink: "shaped-toys.html",
-        name: "Fish Shaped Toy",
-        price: "\u20b91,200",
+        category: "Designer Cushions",
+        categoryLink: "cushions.html",
+        name: "Fish Shaped Cushion",
+        price: "\u20b9900",
         priceNote: "",
-        description: "A charming fish-shaped knitted toy finished with a soft fringed tail.",
+        description: "A charming fish-shaped knitted cushion finished with a soft fringed tail.",
         size: "",
         personalizable: false,
         colors: [
