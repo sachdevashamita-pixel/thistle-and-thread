@@ -17,7 +17,7 @@ const PRODUCTS = {
         size: "70 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Natural", image: "images/throws/throw-christmas-tree.jpg" }
+            { name: "Natural", image: "throw-christmas-tree.jpg" }
         ]
     },
 
@@ -31,7 +31,7 @@ const PRODUCTS = {
         size: "70 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Red", image: "images/throws/throw-maze-red.jpg" }
+            { name: "Red", image: "throw-maze-red.jpg" }
         ]
     },
 
@@ -45,7 +45,7 @@ const PRODUCTS = {
         size: "70 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Green", image: "images/throws/throw-checkerboard-green.jpg" }
+            { name: "Green", image: "throw-checkerboard-green.jpg" }
         ]
     },
 
@@ -59,7 +59,7 @@ const PRODUCTS = {
         size: "70 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Red", image: "images/throws/throw-diamond-red.jpg" }
+            { name: "Red", image: "throw-diamond-red.jpg" }
         ]
     },
 
@@ -73,7 +73,7 @@ const PRODUCTS = {
         size: "70 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Multicolour", image: "images/throws/throw-stripe-christmas.jpg" }
+            { name: "Multicolour", image: "throw-stripe-christmas.jpg" }
         ]
     },
 
@@ -87,7 +87,7 @@ const PRODUCTS = {
         size: "70 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Cream", image: "images/throws/throw-chevron-border-cream.jpg" }
+            { name: "Cream", image: "throw-chevron-border-cream.jpg" }
         ]
     },
 
@@ -101,7 +101,7 @@ const PRODUCTS = {
         size: "70 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Natural", image: "images/throws/throw-reindeer.jpg" }
+            { name: "Natural", image: "throw-reindeer.jpg" }
         ]
     },
 
@@ -115,11 +115,11 @@ const PRODUCTS = {
         size: "70 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Mint", image: "images/throws/throw-solid-mint.jpg" },
-            { name: "Green", image: "images/throws/throw-solid-green.jpg" },
-            { name: "Orange", image: "images/throws/throw-solid-orange.jpg" },
-            { name: "Pink", image: "images/throws/throw-solid-pink.jpg" },
-            { name: "Navy", image: "images/throws/throw-solid-navy.jpg" }
+            { name: "Mint", image: "throw-solid-mint.jpg" },
+            { name: "Green", image: "throw-solid-green.jpg" },
+            { name: "Orange", image: "throw-solid-orange.jpg" },
+            { name: "Pink", image: "throw-solid-pink.jpg" },
+            { name: "Navy", image: "throw-solid-navy.jpg" }
         ]
     },
 
@@ -133,7 +133,7 @@ const PRODUCTS = {
         size: "70 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Cream Multi", image: "images/throws/throw-stripe-multicolor.jpg" }
+            { name: "Cream Multi", image: "throw-stripe-multicolor.jpg" }
         ]
     },
 
@@ -147,7 +147,7 @@ const PRODUCTS = {
         size: "70 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Multicolour", image: "images/throws/throw-colorblock.jpg" }
+            { name: "Multicolour", image: "throw-colorblock.jpg" }
         ]
     },
 
@@ -161,8 +161,8 @@ const PRODUCTS = {
         size: "70 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Black", image: "images/throws/throw-speckle-black.jpg" },
-            { name: "Cream", image: "images/throws/throw-speckle-cream.jpg" }
+            { name: "Black", image: "throw-speckle-black.jpg" },
+            { name: "Cream", image: "throw-speckle-cream.jpg" }
         ]
     },
 
@@ -176,7 +176,7 @@ const PRODUCTS = {
         size: "70 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Black/White", image: "images/throws/throw-marble.jpg" }
+            { name: "Black/White", image: "throw-marble.jpg" }
         ]
     },
 
@@ -190,7 +190,7 @@ const PRODUCTS = {
         size: "70 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Black", image: "images/throws/throw-houndstooth-black.jpg" }
+            { name: "Black", image: "throw-houndstooth-black.jpg" }
         ]
     },
 
@@ -204,7 +204,7 @@ const PRODUCTS = {
         size: "70 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Black", image: "images/throws/throw-petal-black.jpg" }
+            { name: "Black", image: "throw-petal-black.jpg" }
         ]
     },
 
@@ -218,8 +218,8 @@ const PRODUCTS = {
         size: "70 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Tan", image: "images/throws/throw-chevron-zigzag-tan.jpg" },
-            { name: "Black", image: "images/throws/throw-chevron-zigzag-black.jpg" }
+            { name: "Tan", image: "throw-chevron-zigzag-tan.jpg" },
+            { name: "Black", image: "throw-chevron-zigzag-black.jpg" }
         ]
     },
 
@@ -233,7 +233,7 @@ const PRODUCTS = {
         size: "70 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Navy", image: "images/throws/throw-star-houndstooth.jpg" }
+            { name: "Navy", image: "throw-star-houndstooth.jpg" }
         ]
     },
 
@@ -247,7 +247,7 @@ const PRODUCTS = {
         size: "70 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Multicolour", image: "images/throws/throw-tartan-plaid.jpg" }
+            { name: "Multicolour", image: "throw-tartan-plaid.jpg" }
         ]
     },
 
@@ -261,7 +261,7 @@ const PRODUCTS = {
         size: "70 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Cream", image: "images/throws/throw-fringed-cream.jpg" }
+            { name: "Cream", image: "throw-fringed-cream.jpg" }
         ]
     },
 
@@ -275,7 +275,7 @@ const PRODUCTS = {
         size: "70 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Black", image: "images/throws/throw-houndstooth-fold.jpg" }
+            { name: "Black", image: "throw-houndstooth-fold.jpg" }
         ]
     },
 
@@ -289,8 +289,8 @@ const PRODUCTS = {
         size: "100 x 150 cm",
         personalizable: false,
         colors: [
-            { name: "Pink", image: "images/throws/weighted-blanket-pink.jpg" },
-            { name: "Green", image: "images/throws/weighted-blanket-green.jpg" }
+            { name: "Pink", image: "weighted-blanket-pink.jpg" },
+            { name: "Green", image: "weighted-blanket-green.jpg" }
         ]
     },
 
@@ -304,7 +304,7 @@ const PRODUCTS = {
         size: "45 x 45 cm",
         personalizable: false,
         colors: [
-            { name: "Pink", image: "images/cushions/cushion-polka-dot.jpg" }
+            { name: "Pink", image: "cushion-polka-dot.jpg" }
         ]
     },
 
@@ -318,8 +318,8 @@ const PRODUCTS = {
         size: "45 x 45 cm",
         personalizable: false,
         colors: [
-            { name: "Blue", image: "images/cushions/cushion-plaid-blue.jpg" },
-            { name: "Red", image: "images/cushions/cushion-plaid-red.jpg" }
+            { name: "Blue", image: "cushion-plaid-blue.jpg" },
+            { name: "Red", image: "cushion-plaid-red.jpg" }
         ]
     },
 
@@ -333,7 +333,7 @@ const PRODUCTS = {
         size: "45 x 45 cm",
         personalizable: false,
         colors: [
-            { name: "Cream", image: "images/cushions/cushion-rainbow.jpg" }
+            { name: "Cream", image: "cushion-rainbow.jpg" }
         ]
     },
 
@@ -347,7 +347,7 @@ const PRODUCTS = {
         size: "45 x 45 cm",
         personalizable: false,
         colors: [
-            { name: "Cream", image: "images/cushions/cushion-heart.jpg" }
+            { name: "Cream", image: "cushion-heart.jpg" }
         ]
     },
 
@@ -361,7 +361,7 @@ const PRODUCTS = {
         size: "45 x 45 cm",
         personalizable: false,
         colors: [
-            { name: "Orange", image: "images/cushions/cushion-cat-face.jpg" }
+            { name: "Orange", image: "cushion-cat-face.jpg" }
         ]
     },
 
@@ -375,7 +375,7 @@ const PRODUCTS = {
         size: "45 x 45 cm",
         personalizable: false,
         colors: [
-            { name: "Red", image: "images/cushions/cushion-candy-cane.jpg" }
+            { name: "Red", image: "cushion-candy-cane.jpg" }
         ]
     },
 
@@ -389,7 +389,7 @@ const PRODUCTS = {
         size: "75 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Grey", image: "images/baby/baby-blanket-zebra.jpg" }
+            { name: "Grey", image: "baby-blanket-zebra.jpg" }
         ]
     },
 
@@ -403,7 +403,7 @@ const PRODUCTS = {
         size: "75 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Blue", image: "images/baby/baby-blanket-fox.jpg" }
+            { name: "Blue", image: "baby-blanket-fox.jpg" }
         ]
     },
 
@@ -417,7 +417,7 @@ const PRODUCTS = {
         size: "75 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Multicolour", image: "images/baby/baby-blanket-fruit.jpg" }
+            { name: "Multicolour", image: "baby-blanket-fruit.jpg" }
         ]
     },
 
@@ -431,7 +431,7 @@ const PRODUCTS = {
         size: "75 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Cream", image: "images/baby/baby-blanket-dinosaur.jpg" }
+            { name: "Cream", image: "baby-blanket-dinosaur.jpg" }
         ]
     },
 
@@ -445,7 +445,7 @@ const PRODUCTS = {
         size: "75 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Pink", image: "images/baby/baby-blanket-bunny.jpg" }
+            { name: "Pink", image: "baby-blanket-bunny.jpg" }
         ]
     },
 
@@ -459,7 +459,7 @@ const PRODUCTS = {
         size: "75 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Multicolour", image: "images/baby/baby-blanket-scallop.jpg" }
+            { name: "Multicolour", image: "baby-blanket-scallop.jpg" }
         ]
     },
 
@@ -473,7 +473,7 @@ const PRODUCTS = {
         size: "75 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Blue", image: "images/baby/baby-blanket-giraffe.jpg" }
+            { name: "Blue", image: "baby-blanket-giraffe.jpg" }
         ]
     },
 
@@ -487,7 +487,7 @@ const PRODUCTS = {
         size: "75 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Pink", image: "images/baby/baby-blanket-pink-solid.jpg" }
+            { name: "Pink", image: "baby-blanket-pink-solid.jpg" }
         ]
     },
 
@@ -501,7 +501,7 @@ const PRODUCTS = {
         size: "75 x 100 cm",
         personalizable: false,
         colors: [
-            { name: "Teal", image: "images/baby/baby-blanket-sailboat.jpg" }
+            { name: "Teal", image: "baby-blanket-sailboat.jpg" }
         ]
     },
 
@@ -515,7 +515,7 @@ const PRODUCTS = {
         size: "75 x 100 cm",
         personalizable: true,
         colors: [
-            { name: "Pink", image: "images/baby/baby-blanket-personalized-bunny.jpg" }
+            { name: "Pink", image: "baby-blanket-personalized-bunny.jpg" }
         ]
     },
 
@@ -529,8 +529,8 @@ const PRODUCTS = {
         size: "75 x 100 cm",
         personalizable: true,
         colors: [
-            { name: "Blue Clouds", image: "images/baby/baby-blanket-personalized-clouds.jpg" },
-            { name: "Pink", image: "images/baby/baby-blanket-personalized-pink.jpg" }
+            { name: "Blue Clouds", image: "baby-blanket-personalized-clouds.jpg" },
+            { name: "Pink", image: "baby-blanket-personalized-pink.jpg" }
         ]
     },
 
@@ -544,7 +544,7 @@ const PRODUCTS = {
         size: "Fits up to 14\u2033 laptops",
         personalizable: false,
         colors: [
-            { name: "Black/Cream", image: "images/laptop-sleeves/laptop-sleeve-woven-stripe.jpg" }
+            { name: "Black/Cream", image: "laptop-sleeve-woven-stripe.jpg" }
         ]
     },
 
@@ -558,7 +558,7 @@ const PRODUCTS = {
         size: "Fits up to 14\u2033 laptops",
         personalizable: false,
         colors: [
-            { name: "Grey", image: "images/laptop-sleeves/laptop-sleeve-grey-tweed.jpg" }
+            { name: "Grey", image: "laptop-sleeve-grey-tweed.jpg" }
         ]
     },
 
@@ -572,7 +572,7 @@ const PRODUCTS = {
         size: "Fits up to 14\u2033 laptops",
         personalizable: false,
         colors: [
-            { name: "Orange", image: "images/laptop-sleeves/laptop-sleeve-orange-tweed.jpg" }
+            { name: "Orange", image: "laptop-sleeve-orange-tweed.jpg" }
         ]
     },
 
@@ -586,7 +586,7 @@ const PRODUCTS = {
         size: "Fits up to 14\u2033 laptops",
         personalizable: false,
         colors: [
-            { name: "Cream", image: "images/laptop-sleeves/laptop-sleeve-cream-ribbed.jpg" }
+            { name: "Cream", image: "laptop-sleeve-cream-ribbed.jpg" }
         ]
     },
 
@@ -600,11 +600,11 @@ const PRODUCTS = {
         size: "Fits up to 14\u2033 laptops",
         personalizable: false,
         colors: [
-            { name: "Yellow", image: "images/laptop-sleeves/laptop-sleeve-quilted-yellow.jpg" },
-            { name: "Charcoal", image: "images/laptop-sleeves/laptop-sleeve-quilted-charcoal.jpg" },
-            { name: "Grey", image: "images/laptop-sleeves/laptop-sleeve-quilted-grey.jpg" },
-            { name: "Brown", image: "images/laptop-sleeves/laptop-sleeve-quilted-brown.jpg" },
-            { name: "Beige", image: "images/laptop-sleeves/laptop-sleeve-quilted-beige.jpg" }
+            { name: "Yellow", image: "laptop-sleeve-quilted-yellow.jpg" },
+            { name: "Charcoal", image: "laptop-sleeve-quilted-charcoal.jpg" },
+            { name: "Grey", image: "laptop-sleeve-quilted-grey.jpg" },
+            { name: "Brown", image: "laptop-sleeve-quilted-brown.jpg" },
+            { name: "Beige", image: "laptop-sleeve-quilted-beige.jpg" }
         ]
     },
 
@@ -618,7 +618,7 @@ const PRODUCTS = {
         size: "24 x 17 cm",
         personalizable: false,
         colors: [
-            { name: "Green", image: "images/pouches/pouch-fern.jpg" }
+            { name: "Green", image: "pouch-fern.jpg" }
         ]
     },
 
@@ -632,7 +632,7 @@ const PRODUCTS = {
         size: "24 x 17 cm",
         personalizable: false,
         colors: [
-            { name: "Red", image: "images/pouches/pouch-christmas-tree.jpg" }
+            { name: "Red", image: "pouch-christmas-tree.jpg" }
         ]
     },
 
@@ -646,7 +646,7 @@ const PRODUCTS = {
         size: "24 x 17 cm",
         personalizable: false,
         colors: [
-            { name: "Cream", image: "images/pouches/pouch-cream-textured.jpg" }
+            { name: "Cream", image: "pouch-cream-textured.jpg" }
         ]
     },
 
@@ -660,7 +660,7 @@ const PRODUCTS = {
         size: "",
         personalizable: false,
         colors: [
-            { name: "Striped", image: "images/shaped-toys/toy-horse.jpg" }
+            { name: "Striped", image: "toy-horse.jpg" }
         ]
     },
 
@@ -674,7 +674,7 @@ const PRODUCTS = {
         size: "",
         personalizable: false,
         colors: [
-            { name: "Navy Stripe", image: "images/shaped-toys/toy-dinosaur.jpg" }
+            { name: "Navy Stripe", image: "toy-dinosaur.jpg" }
         ]
     },
 
@@ -688,7 +688,7 @@ const PRODUCTS = {
         size: "",
         personalizable: false,
         colors: [
-            { name: "Cream", image: "images/shaped-toys/toy-cloud.jpg" }
+            { name: "Cream", image: "toy-cloud.jpg" }
         ]
     },
 
@@ -702,7 +702,7 @@ const PRODUCTS = {
         size: "",
         personalizable: false,
         colors: [
-            { name: "Grey", image: "images/shaped-toys/toy-cat-face.jpg" }
+            { name: "Grey", image: "toy-cat-face.jpg" }
         ]
     },
 
@@ -716,8 +716,8 @@ const PRODUCTS = {
         size: "",
         personalizable: false,
         colors: [
-            { name: "Polka Dot", image: "images/shaped-toys/toy-ball-polka-dot.jpg" },
-            { name: "Checker", image: "images/shaped-toys/toy-ball-checker.jpg" }
+            { name: "Polka Dot", image: "toy-ball-polka-dot.jpg" },
+            { name: "Checker", image: "toy-ball-checker.jpg" }
         ]
     },
 
@@ -731,7 +731,7 @@ const PRODUCTS = {
         size: "",
         personalizable: false,
         colors: [
-            { name: "Cream", image: "images/shaped-toys/toy-heart.jpg" }
+            { name: "Cream", image: "toy-heart.jpg" }
         ]
     },
 
@@ -745,7 +745,7 @@ const PRODUCTS = {
         size: "",
         personalizable: false,
         colors: [
-            { name: "Pink", image: "images/shaped-toys/toy-star.jpg" }
+            { name: "Pink", image: "toy-star.jpg" }
         ]
     },
 
@@ -759,7 +759,7 @@ const PRODUCTS = {
         size: "",
         personalizable: false,
         colors: [
-            { name: "Cream", image: "images/shaped-toys/toy-fish.jpg" }
+            { name: "Cream", image: "toy-fish.jpg" }
         ]
     },
 
